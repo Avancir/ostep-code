@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 int main() {
-    int x = 100;  // Declare and initialize variable x
+    int x = 100;  
     
     pid_t pid = fork();  // Create a new process
     
@@ -27,3 +27,4 @@ int main() {
     return 0;
 }
 
+//fork() creates a child process. Child and Parent process have their own private address space so both process won't interfere ith eachother.

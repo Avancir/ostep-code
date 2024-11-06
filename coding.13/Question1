@@ -1,0 +1,1 @@
+The precision of gettimeofday is in microseconds. It cannot measure the timing of a single access to a memory page.

@@ -1,0 +1,2 @@
+Disable editor optimization and add command -O0 when compiling. THis command tell the compiler to 
+perform no optimization

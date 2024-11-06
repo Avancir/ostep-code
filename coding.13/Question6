@@ -1,0 +1,2 @@
+Use a virtual machine to limit it to only one CPU.
+If the code is moved to another CPU, then the TLB structure will miss since there is a hierachy of tlb in each CPU, which will increase the access time.
